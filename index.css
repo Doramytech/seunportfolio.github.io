@@ -232,10 +232,11 @@ button:focus{
         display: grid;
     }
     .body-content{
-        width: 320px;
+        width: 370px;
         height: 300px;
         text-align: center;
         margin: 2px 20px;
+        line-height: 28px;
     }
     .body-content h3{
         font-size: 1em;
@@ -323,17 +324,19 @@ button:focus{
     .sen{
         display: grid;
         justify-content: center;
-        width: 340px;
+        width: 420px;
     }
     .sen1{
-        width: 300px;
+        width: 380px;
+        height: 25vh;
     }
     .sen2{
-        width: 300px;
+        width: 380px;
+        height: 37vh;
     }
     .sen3{
-        width: 300px;
-        height: 30vh;
+        width: 380px;
+        height: 25vh;
     }
     /* .edu2{
         margin-top: 300px;
@@ -346,5 +349,177 @@ button:focus{
         font-size: 1.5em;
         text-align: center;
     }   
+}
+.contact{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    margin: 100px 0px;
+    text-align: center;
+    color: white;
+    background-blend-mode: multiply;
+}
+.bo{
+    border: 2px solid white;
+    width: 200px;
+    margin: auto;
+    margin-top: -19px;
+}
+.div{
+    border: 1px solid transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div1{
+    border: 1px solid transparent;
+    width: 600px;
+    height: 35vh;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.div1 p{
+    margin: 2px 30px;
+    line-height: 20px;
+}
+.div1 h2{
+    margin: 30px 30px;
+}
+.div2{
+    border: 1px solid transparent;
+    width: 600px;
+    height: 35vh;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.div2 p{
+    margin: 2px 30px;
+    line-height: 20px;
+}
+.div2 h2{
+    margin: 30px 30px;
+}
+.a{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.b{
+    border: 1px solid transparent;
+    width: 600px;
+    height: 35vh;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.b p{
+    margin: 2px 30px;
+    line-height: 20px;
+}
+.b h2{
+    margin: 30px 30px;
+}
+.c{
+    border: 1px solid transparent;
+    width: 600px;
+    height: 35vh;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.c p{
+    margin: 2px 30px;
+    line-height: 20px;
+}
+.c h2{
+    margin: 30px 30px;
+}
+@media(max-width:458px){
+    .div{
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
+    .div1{
+        width: 400px;
+    }
+    .div2{
+        width: 400px;
+    }
+    .a{
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
+    .b{
+        width: 400px;
+    }
+    .c{
+        width: 400px;
+    }
+    .background{
+        display: grid;
+    }
+}
+.background{
+    border: 1px solid transparent;
+    width: 190vh;
+    margin: auto;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px white;
+}
+.car{
+    border: 1px solid transparent;
+    width: 600px;
+    height: 200px;
+    margin: 60px 2px;
+    line-height: 30px;
+}
+.ccc{
+    border: 1px solid transparent;
+    width: 600px;
+    height: 100px;
+    margin: 60px 2px;
+}
+.t{
+    border: 1px solid transparent;
+    margin-top: 270px;
+}
+.t h1{
+    color: white;
+    text-align: center;
+}
+.car h1{
+    margin: 5px 30px;
+}
+.car p{
+    margin: 5px 30px;
+}
+.bb{
+    display: grid;
+    gap: 20px;
+}
+input{
+    padding: 20px 30px;
+    width: 55vh;
+    outline: none;
+}
+textarea{
+    padding: 50px 30px;
+    width: 55vh;
+    outline: none;
+}
+#btn{
+    padding: 20px 10px;
+    width: 280px;
+    color: black;
+    background-color: white;
+    border: none;
 }
 
