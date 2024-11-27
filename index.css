@@ -202,7 +202,7 @@ button:focus{
     .body-content{
         width: 400px;
         height: 500px;
-        line-height: 20px;
+        line-height: 30px;
     }
     .body-content h2{
         line-height: 50px;
@@ -224,6 +224,7 @@ button:focus{
     }
     .body-content h2{
         font-size: 2.5em;
+        line-height: 30px;
     }
     .box1 img{
         display: none;
@@ -232,14 +233,15 @@ button:focus{
         display: grid;
     }
     .body-content{
-        width: 370px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
         text-align: center;
         margin: 2px 20px;
-        line-height: 28px;
+        line-height: 30px;
     }
     .body-content h3{
         font-size: 1em;
+        line-height: 30px;
     }
 
 
@@ -348,7 +350,35 @@ button:focus{
         width: 400px;
         font-size: 1.5em;
         text-align: center;
-    }   
+    }  
+    .nav-content{
+        margin: 20px 70px;
+        display: none;
+    }
+    #img1{
+        display: none   ;
+    }
+    .body-content h2{
+        font-size: 2.5em;
+        line-height: 30px;
+    }
+    .box1 img{
+        display: none;
+    }
+    .sen{
+        display: grid;
+    }
+    .body-content{
+        width: 400px;
+        height: 350px;
+        text-align: center;
+        margin: 2px 20px;
+        line-height: 30px;
+    }
+    .body-content h3{
+        font-size: 1em;
+        line-height: 30px;
+    } 
 }
 .contact{
     border: 1px solid transparent;
@@ -437,6 +467,34 @@ button:focus{
     margin: 30px 30px;
 }
 @media(max-width:458px){
+    .div{
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
+    .div1{
+        width: 400px;
+    }
+    .div2{
+        width: 400px;
+    }
+    .a{
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
+    .b{
+        width: 400px;
+    }
+    .c{
+        width: 400px;
+    }
+    .background{
+        display: grid;
+    }
+}
+
+@media(max-width:650px){
     .div{
         display: grid;
         justify-content: center;
