@@ -589,18 +589,18 @@ textarea{
 @media (max-width:650px){
     .background{
         display: block;
-        width: 65vh;
+        width: 100%;
     }
     .car p{
         font-size: 1em;
-        width: 60vh;
+        width: 52vh;
     }
     input{
         padding: 10px 20px;
-        width: 50vh;
+        width: 40vh;
     }
     textarea{
-        padding: 30px 20px;
+        padding: 25px 15px;
         width: 270px;
     }
     #btn{
@@ -612,6 +612,9 @@ textarea{
     }
     #btn:hover{
         background-color: grey;
+    }
+    .t{
+        width: 100%;
     }
 }
 
