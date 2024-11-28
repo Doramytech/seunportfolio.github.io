@@ -589,7 +589,7 @@ textarea{
 @media (max-width:650px){
     .background{
         display: block;
-        width: 100%;
+        width: 69vh;
     }
     .car p{
         font-size: 1em;
@@ -614,7 +614,7 @@ textarea{
         background-color: grey;
     }
     .t{
-        width: 100%;
+        width: 69vh;
     }
 }
 
